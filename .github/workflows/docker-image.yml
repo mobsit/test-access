@@ -38,7 +38,7 @@ jobs:
         id: changed-files-specific
         uses: tj-actions/changed-files@v35
         with:
-          files: doc  # Alternatively using: `docs/**` or `docs`
+          files: TEST  # Alternatively using: `docs/**` or `docs`
 
       - name: Run step if any file(s) in the docs folder change
         if: steps.changed-files-specific.outputs.any_changed == 'true'
