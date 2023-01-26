@@ -19,6 +19,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
+          repository: ELMOUTAOUAKALWIDAD/test
           fetch-depth: 2  # OR "2" -> To retrieve the preceding commit.
 
       # Example 1
